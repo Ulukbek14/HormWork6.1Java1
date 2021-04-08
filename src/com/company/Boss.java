@@ -1,15 +1,13 @@
 package com.company;
 
-public class Boss {
-    int heroes = 500;
-    int damage = 50;
-    String Weapon = "Firearms";
+public class Boss extends GameEntity{
+    Weapon fair;
 
-    public String getWeapon() {
-        return Weapon;
+    public Weapon getFair() {
+        return fair;
     }
 
-    public void setWeapon(String weapon) {
-        Weapon = weapon;
+    public void setFair(Weapon fair) {
+        this.fair = fair;
     }
 }

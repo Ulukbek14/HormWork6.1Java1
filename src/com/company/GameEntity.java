@@ -1,6 +1,6 @@
 package com.company;
 
-public class GameEntity extends Boss {
+public class GameEntity {
     private int health;
     private int damage;
 
