@@ -5,10 +5,10 @@ public class Weapon {
     private String namesWeapon;
 
 
-
     public Weapon(String weaponType, String namesWeapon) {
         this.weaponType = weaponType;
         this.namesWeapon = namesWeapon;
+
     }
 
     public String getWeaponType() {

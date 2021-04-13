@@ -10,4 +10,19 @@ public class Boss extends GameEntity{
     public void setFair(Weapon fair) {
         this.fair = fair;
     }
+
+    public String printInfo(){
+        return " health: "+ getHealth() + " damage: " + getDamage() + " weaponType: " + fair.getNamesWeapon() + " NamesWeapon "  + fair.getWeaponType();
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
