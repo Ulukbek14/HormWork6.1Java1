@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
         Boss b1 = new Boss();
         b1.setHealth(500);
         b1.setDamage(50);
